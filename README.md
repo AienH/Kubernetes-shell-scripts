@@ -9,6 +9,7 @@ Each script has a `usage` function. See usage with
 ```
 
 ## Scripts
+* [install.sh](install.sh): Install kubectl kubelet kubeadm.
 * [countPodsAndContainerPerNodeCSV.sh](countPodsAndContainerPerNodeCSV.sh): Count number of pods and containers per node. Print in CSV format.
 * [findEmptyNamespaces.sh](findEmptyNamespaces.sh): Loop over all namespaces in a cluster and find empty ones.
 * [getPodsLoad.sh](getPodsLoad.sh): Get formatted results of pods in a namespace underlying node's load average (using cat /proc/loadavg).
